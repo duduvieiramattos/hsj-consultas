@@ -1,0 +1,45 @@
+.login {
+  background-image: url("./../../assets/backg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  opacity: 1;
+}
+
+.logo{
+  width: 300px;
+}
+
+.app-label{
+  margin: auto;
+  font-size: 2.3em;
+}
+
+.app-label span{
+  font-family: "Brush Script MT", cursive;
+}
+
+.form-login{
+  margin: auto;
+  font-weight: bold;
+}
+
+.title-section{
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.forgot, .register{
+  text-decoration: none;
+}
